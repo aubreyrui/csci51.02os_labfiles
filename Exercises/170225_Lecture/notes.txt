@@ -1,0 +1,30 @@
+GNU ASSEMBLER
+- the default assembler for the GNU OS
+- known by its executable as or gas (but we'll call it GAS for mow)
+- compatible and works on different computer architectures and supoorts several ssembly language syntaxes
+- converts our assembly language program into a machine langugae program
+
+CSCI 50 on
+
+High Level -> Assembly -> ML Program -- Machine Interpretation -> Control Signal Specification
+
+
+AT&T vs INtel Syntax
+
+<op> A, B
+
+mov1 $1, %eax
+addl (%ebx, %ecx, 0x2), %eax
+subq 0x20(%rbx), %rax
+
+Intel: A<-A <op> B
+mov eax, 1 
+add eax, [ebx+ecx*2h]
+sub rax, [rbx+20h]
+
+<op> 
+
+- step by step values per operations
+- 
+- the first one is initializing
+- the first valye moved to eas... then do the adding, then move

@@ -1,0 +1,17 @@
+Exercise: Assembly File (cppAssembly2)
+Note: the compiler runs in Mac Os
+1. Code lines for each operation are as follows:
+Addition: add	w8, w8, w9
+Subtraction: subs	w8, w8, w9
+Multiplication: mul	w8, w8, w9
+Division: sdiv	w8, w8, w9
+Modulo:
+sdiv	w9, w8, w10
+mul	    w9, w9, w10
+subs	w8, w8, w9
+
+2. What do you observe in the divide instruction?
+I noticed that it called the sdiv insturction. "sdiv" performs a signed 32-bit division.
+
+3. For the function call to dummy, what do you notice in terms of how the code puts the arguments on the stack?
+bl	__Z5dummyii
